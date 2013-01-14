@@ -10,8 +10,8 @@ deps_scripts/kconfig/conf.o := \
   /usr/include/sys/cdefs.h \
   /usr/include/bits/wordsize.h \
   /usr/include/gnu/stubs.h \
-  /usr/include/gnu/stubs-32.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/stddef.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stddef.h \
   /usr/include/bits/locale.h \
   /usr/include/xlocale.h \
   /usr/include/ctype.h \
@@ -24,7 +24,7 @@ deps_scripts/kconfig/conf.o := \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/stdarg.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stdarg.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
   /usr/include/bits/stdio.h \
@@ -54,7 +54,7 @@ deps_scripts/kconfig/conf.o := \
   scripts/kconfig/lkc.h \
     $(wildcard include/config/list.h) \
   scripts/kconfig/expr.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/stdbool.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stdbool.h \
   /usr/include/libintl.h \
   scripts/kconfig/lkc_proto.h \
 
