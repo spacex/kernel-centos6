@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/kxgettext.o := gcc -Wp,-MD,scripts/kconfig/.kxgettext.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<curses.h>" -DLOCALE   -c -o scripts/kconfig/kxgettext.o scripts/kconfig/kxgettext.c
+cmd_scripts/kconfig/kxgettext.o := gcc -Wp,-MD,scripts/kconfig/.kxgettext.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/kxgettext.o scripts/kconfig/kxgettext.c
 
 deps_scripts/kconfig/kxgettext.o := \
   scripts/kconfig/kxgettext.c \
@@ -7,8 +7,8 @@ deps_scripts/kconfig/kxgettext.o := \
   /usr/include/sys/cdefs.h \
   /usr/include/bits/wordsize.h \
   /usr/include/gnu/stubs.h \
-  /usr/include/gnu/stubs-32.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/stddef.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/endian.h \
@@ -36,11 +36,11 @@ deps_scripts/kconfig/kxgettext.o := \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/stdarg.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
   /usr/include/bits/stdio.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/stdbool.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdbool.h \
   /usr/include/libintl.h \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \

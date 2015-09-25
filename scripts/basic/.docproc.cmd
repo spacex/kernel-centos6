@@ -7,14 +7,14 @@ deps_scripts/basic/docproc := \
   /usr/include/sys/cdefs.h \
   /usr/include/bits/wordsize.h \
   /usr/include/gnu/stubs.h \
-  /usr/include/gnu/stubs-32.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/stddef.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/stdarg.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
   /usr/include/bits/stdio.h \
@@ -43,8 +43,8 @@ deps_scripts/basic/docproc := \
   /usr/include/bits/environments.h \
   /usr/include/bits/confname.h \
   /usr/include/getopt.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/limits.h \
-  /usr/lib/gcc/i686-redhat-linux/4.4.4/include/syslimits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \
@@ -56,18 +56,6 @@ deps_scripts/basic/docproc := \
   /usr/include/bits/siginfo.h \
   /usr/include/bits/sigaction.h \
   /usr/include/bits/sigcontext.h \
-  /usr/include/asm/sigcontext.h \
-  /usr/include/linux/types.h \
-  /usr/include/asm/types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm-generic/bitsperlong.h \
-    $(wildcard include/config/64bit.h) \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/posix_types_32.h \
   /usr/include/bits/sigstack.h \
   /usr/include/sys/ucontext.h \
   /usr/include/bits/sigthread.h \
